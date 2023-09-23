@@ -27,7 +27,7 @@ def get_country_code(country_name):
             return "eg"
         elif country_name == "Western Sahara":
             return "eh"
-        elif country_name == " Iran, Islamic Republic of":
+        elif country_name == "Iran, Islamic Republic of":
             return "ir"
         elif country_name == "Kyrgyzstan":
             return "kg"
