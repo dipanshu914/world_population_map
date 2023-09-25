@@ -7,7 +7,7 @@ def get_country_code(country_name):
     for code, name in i18n.COUNTRIES.items():
         if name == country_name:
             return code
-        if country_name == "Yemen":
+        """ if country_name == "Yemen":
             return "ye"
         elif country_name == "Bolivia, Plurinational State of":
             return "bo"
@@ -40,7 +40,7 @@ def get_country_code(country_name):
         elif country_name == "Lao People's Democratic Republic":
             return "la"
         elif country_name == "Viet Nam":
-            return "vn"
+            return "vn" """
 
     # if the country code wasn't found, return none.
     return None
